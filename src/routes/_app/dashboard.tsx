@@ -5,7 +5,7 @@ import { Counter } from "@/components/counter";
 import { monthlySpending, categories, transactions, aiInsights } from "@/lib/demo-data";
 import {
   Area, AreaChart, ResponsiveContainer, Tooltip, XAxis, YAxis,
-  PieChart, Pie, Cell, BarChart, Bar, CartesianGrid,
+  PieChart, Pie, Cell, CartesianGrid,
 } from "recharts";
 import { ArrowDownRight, ArrowUpRight, Wallet, PiggyBank, TrendingUp, Sparkles } from "lucide-react";
 
