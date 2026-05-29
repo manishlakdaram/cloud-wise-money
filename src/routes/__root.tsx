@@ -76,14 +76,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "finaceai" },
+      { name: "description", content: "AI-powered personal finance app for expense tracking, subscription management, and smart savings." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "finaceai" },
+      { property: "og:description", content: "AI-powered personal finance app for expense tracking, subscription management, and smart savings." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "finaceai" },
+      { name: "twitter:description", content: "AI-powered personal finance app for expense tracking, subscription management, and smart savings." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/1370db96-ce9e-4d4a-a278-381c40ebe23f/id-preview-313c01ab--7644c528-ae68-48fa-8815-2368eeb0dcaf.lovable.app-1780035820043.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/1370db96-ce9e-4d4a-a278-381c40ebe23f/id-preview-313c01ab--7644c528-ae68-48fa-8815-2368eeb0dcaf.lovable.app-1780035820043.png" },
     ],
     links: [
       {
